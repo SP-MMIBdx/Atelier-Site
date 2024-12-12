@@ -3,9 +3,14 @@ body, html {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
 }
+
+* {
+    margin: 15px;
+}
+
+
 
 section {
     height: 100vh;
@@ -25,17 +30,12 @@ section {
 }
 
 .left-image {
-    flex: 1;
-    overflow: hidden; /* Empêche tout débordement horizontal ou vertical */
-    margin: 0;
-    padding: 0;
+    margin-left: -15px;
 }
 
-.left-image img {
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-    display: block;
+.bottom-content {
+    margin-right: -195px;
+    width: 100%;
 }
 
 /* Conteneur des titres */
@@ -82,15 +82,9 @@ section {
     justify-content: center;
     overflow: hidden; /* Empêche l'image de déborder */
     min-height: 100%; /* Garantit que le conteneur prend toute la hauteur disponible */
+    padding-top: 10px;
 }
 
-.bottom-content img {
-    width: 100%; /* Étire l'image horizontalement pour toucher les bords */
-    height: 100%; /* Étire l'image verticalement pour remplir l'espace */
-    object-fit: cover; /* Remplit le conteneur sans déformation */
-    display: block;
-    max-height: 100%; /* Limite la hauteur maximale à la hauteur du conteneur */
-}
 
 /*Section 2 */
 
@@ -103,6 +97,7 @@ section {
     overflow: hidden; /* Empêche tout débordement horizontal ou vertical */
     margin: 0;
     padding: 0;
+    margin-left: -15px;
 
 }
 
@@ -114,11 +109,49 @@ section {
     padding-left: 700px;
 }
 
-
-
-
 .section3 {
     padding-top: 600px;
+    padding-top: 800px;*
+    width: 100%;
+    height: auto;
+}
+
+.section3bis {
+    padding-top: 500px;
+}
+
+.section4 {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
+.section5 {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: auto;
+
+}
+
+.imagesection5 {
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    color: red;
+    rotate: 90%;
+}
+
+.section6 {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.imagesection6 img{
+    width: 1500px;
+    align-items: center;
 }
 
 .image-gauche2 {
@@ -127,43 +160,189 @@ section {
     padding: 0;
     position: absolute; /* Toujours utilisé pour positionner les titres sur l'image */
     padding-right: 875px;
+    margin-left: -15px;
 }
 
 .Carrousel1 {
     flex: 1;
-    padding-bottom: 0px;
-}
-
-.section3 {
-    padding-top: 1800px;
-}
-
-/* Autres sections */
-.section2, .section3, .section4, .section5, .section6 {
-    border: 1px solid #ffffff;
-}
-
-.section2 h2, .section3 h2, .section4 h2, .section5 h2, .section6 h2 {
-    margin: 0;
-    font-size: 24px;
+    width: 100%;
+    height: auto;
 }
 
 
+.buttonv1 {
+    background-color: #fcc52b;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+    transition-duration: 0.4s;
+}
+
+.buttonv1 {
+    text-align: center; /* Center-align content */
+    display: block;
+    margin: auto;
+  }
+
+.buttonv1:hover {
+    background-color: #fcc52b;
+    color: white;
+}
+
+/* Hover effect button */
+
+.buttonv1:active {
+    background-color: #fcc52b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonv2 {
+    background-color: #fcc52b;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+    transition-duration: 0.4s;
+}
+
+.buttonv2 {
+    text-align: center; /* Center-align content */
+    display: block;
+    margin: auto;
+  }
 
 
+.buttonv2:hover {
+    background-color: #fcc52b;
+    color: white;
+}
+
+/* Hover effect button */
+
+.buttonv2:active {
+    background-color: #fcc52b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonv3 {
+    background-color: #fcc52b;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+    transition-duration: 0.4s;
+}
+
+.buttonv3 {
+    text-align: center; /* Center-align content */
+    display: block;
+    margin: auto;
+  }
 
 
+.buttonv3:hover {
+    background-color: #fcc52b;
+    color: white;
+}
 
+/* Hover effect button */
 
+.buttonv3:active {
+    background-color: #fcc52b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
+.buttonv4 {
+    background-color: #fcc52b;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+    transition-duration: 0.4s;
+}
 
+.buttonv4:hover {
+    background-color: #fcc52b;
+    color: white;
+}
 
+/* Hover effect button */
 
+.buttonv4:active {
+    background-color: #fcc52b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
+.buttonv5 {
+    background-color: #fcc52b;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+    transition-duration: 0.4s;
+}
 
+.buttonv5:hover {
+    background-color: #fcc52b;
+    color: white;
+}
 
+/* Hover effect button */
 
+.buttonv5:active {
+    background-color: #fcc52b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
+.imgcase1 {
+    max-width: 300px;
+    max-height: 300px;
+}
 
+.imgcase2 {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.imgcase3 {
+    max-width: 300px;
+    max-height: 300px;
+}
 
 

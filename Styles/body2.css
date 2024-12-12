@@ -6,7 +6,7 @@ body {
     background-color: #f5f5f5;
 }
 
-*{
+* {
     box-sizing: content-box;
 }
 
@@ -54,7 +54,6 @@ body {
 
 .titrebody2 {
     display: flex;
-
 }
 
 
@@ -68,19 +67,7 @@ body {
     text-wrap: wrap;
 }
 
-.CV16body2 {
-    justify-content: center;
-}
-
-.A110body2 {
-    justify-content: end;
-}
-
-.LCbody2 {
-    justify-content: center;
-}
-
-.button1 {
+z.button1 {
     background-color: #fcc52b;
     border: 1px solid black;
     border-radius: 5px;
@@ -165,20 +152,39 @@ body {
 .cadillac-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-right: 0px;
+    align-items: flex-start;
 }
 
 .cadillac-container {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    
+    margin-top: -400px;
+    margin-right: -800px;
 }
 
 .cadillac-img {
     max-width: 60%;
     height: auto;
+}
+
+.lambo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0px;
+}
+
+.lambo-container {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Lamborghini_countach {
+    max-width: 60%;
+    height: auto;
     margin-bottom: 50px;
-   
+    margin-right: 30px;
 }
