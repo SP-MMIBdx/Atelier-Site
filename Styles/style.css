@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Bebas Neue Pro Bold";
+    src : url(../Fonts/BebasNeueProBold2.otf) format(opentype);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src : url(../Fonts/Roboto-Medium.ttf) format(truetype);
+    font-weight: 100;
+}
+
+.font-bebas-neue-pro-bold {
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+    font-weight: 400;
+}
+
+h1{
+    color:#000000; 
+    font-size: 144px;
+    font-family: "Bebas Neue Pro Bold";
+    }
+
+h2{
+    color:#000000; 
+    font-size: 80px;
+    font-family: "Bebas Neue Pro Bold";
+    }
+
+h3{
+    color:#000000; 
+    font-size: 56px;
+    font-family: "Bebas Neue Pro Bold";
+    }
+
+h4{
+    color:#000000; 
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+    }
+
+
+p{
+    font-size: 22px;
+    font-family: "Roboto Medium";
+}
+
+.italic{
+    font-style:italic
+}
+
+.bold {
+    font-weight: 800;
+}
+
+body {
+    width:100vw ;
+}

@@ -1,0 +1,142 @@
+
+
+html, body {
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0; /* Enlève le padding par défaut */
+    height: 100%; /* Assurez-vous que le body occupe toute la hauteur de la page */
+}
+
+footer {
+    width: 100%; /* S'assure que le footer occupe toute la largeur */
+}
+
+
+/* Liens dans le Footer */
+footer nav ul {
+    list-style-type: none;   /* Enlever les puces de la liste */
+    padding: 0;
+    margin: 0;
+    display: flex;           /* Disposition en ligne des éléments */
+    justify-content: center; /* Centrer les éléments de navigation */
+}
+
+footer nav ul li {
+    margin: 0 15px;          /* Espacement entre les éléments de la liste */
+}
+
+footer nav ul li a {
+    color: white;            /* Couleur des liens */
+    text-decoration: none;   /* Enlever le soulignement des liens */
+    font-size: 14px;         /* Taille de la police des liens */
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline; /* Souligner les liens au survol */
+    color: #f0f0f0;           /* Changer la couleur du lien au survol */
+}
+
+/* Pour les petites tailles d'écran (responsive design) */
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px;     /* Taille de police plus petite pour les mobiles */
+        padding: 15px;       /* Espacement plus petit */
+    }
+
+    footer nav ul {
+        flex-direction: column; /* Empiler les éléments de la navigation verticalement */
+    }
+
+    footer nav ul li {
+        margin-bottom: 10px;   /* Espacement entre les éléments de la liste */
+    }
+}
+
+.footer {
+    display: flex; /* Disposition en ligne des sections */
+    justify-content: space-between; /* Espacement entre les sections */
+    align-items: center; /* Aligne verticalement */
+    background-color: #FCC52B; /* Couleur de fond jaune */
+    color: white; /* Couleur du texte */
+    flex-wrap: wrap;
+  }
+  
+  .footer div {
+    text-align: center; /* Centrage du texte */
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 20px;
+  }
+  
+  /* Styles pour la section Newsletter */
+  .newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-button {
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #e0e0e0; /* Changement de couleur au survol */
+  }
+  
+  .bouton {
+    order: 1;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .logo {
+    order: 1;
+    margin-top: 100px;
+    margin-left: -15px;
+  } 
+  .contact{ 
+    order: 3;
+    color: white;
+    text-decoration: underline;
+    text-align: right;
+  }
+  
+  .newsletter {
+    order: 2;
+    text-align: left; /* Texte aligné à gauche */
+  }
+
+  a {
+    color: rgb(255, 255, 255); /* Change la couleur du lien */
+    text-decoration: none; /* Supprime le soulignement si nécessaire */
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255); /* Change la couleur du lien quand la souris passe dessus */
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255); /* Change la couleur des liens déjà visités */
+  }
+  
+  a:active {
+    color: rgb(0, 0, 0); /* Change la couleur quand le lien est cliqué */
+  }
+  
+  h5 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Bebas Neue Pro Bold";
+  }
+  
+
+  
+
+
+

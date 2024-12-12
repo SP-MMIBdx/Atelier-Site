@@ -1,0 +1,46 @@
+/* header.css */
+
+header a {
+    font-family: "Bebas Neue Pro Bold" ;
+    font-size: 40px; /* Taille de la police */
+}
+header {
+    background-color: #FCC52B; /* Couleur de fond du header */
+    width: 100%;               /* Prendre toute la largeur de la page */
+    padding: 30px 0;           /* Espacement en haut et en bas */
+}
+
+html, body {
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0; /* Enlève le padding par défaut */
+    height: 100%; /* Assurez-vous que le body occupe toute la hauteur de la page */
+}
+
+
+/* Style pour la navigation dans le header */
+header nav ul {
+    list-style-type: none;     /* Enlever les puces de la liste */
+    margin: 0;                 /* Enlever la marge */
+    padding: 0;                /* Enlever le padding */
+    display: flex;             /* Disposition en ligne */
+    justify-content: space-between; /* Espacer les éléments uniformément */
+    align-items: center;       /* Aligner verticalement les éléments */
+}
+
+/* Style pour les éléments de la liste (li) */
+header nav ul li {
+    margin: 0 50px;            /* Espacement entre les éléments */
+}
+
+/* Style pour les liens (a) dans la navigation */
+header nav ul li a {
+    color: black;              /* Couleur du texte des liens */
+    text-decoration: none;     /* Enlever le soulignement des liens */
+    text-transform: uppercase; /* Mettre le texte en majuscule */
+    font-weight: bold;         /* Mettre les liens en gras */
+}
+
+/* Effet au survol des liens */
+header nav ul li a:hover {
+    color: white;              /* Changer la couleur du texte au survol */
+}

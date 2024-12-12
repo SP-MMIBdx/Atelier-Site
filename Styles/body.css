@@ -1,0 +1,169 @@
+/* Style général */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Pour une gestion stricte des dimensions */
+    overflow: hidden; /* Empêche tout débordement */
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px; /* Ajoute un padding de 50px en haut de la page */
+}
+
+.left-image {
+    flex: 1;
+    overflow: hidden; /* Empêche tout débordement horizontal ou vertical */
+    margin: 0;
+    padding: 0;
+}
+
+.left-image img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Conteneur des titres */
+.top-content {
+    position: absolute; /* Toujours utilisé pour positionner les titres sur l'image */
+    top: 60px; /* Ajuste selon la position souhaitée */
+    left: 50%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Centrer exactement */
+    z-index: 10; /* Assure que le titre soit au-dessus de l'image */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Empile les titres verticalement */
+    align-items: center; /* Centrer les titres horizontalement */
+    padding-top: 100px; /* Ajoute un padding de 50px en haut de la page */
+}
+
+/* Styles des titres */
+.top-content h3, .top-content h1, .top-content h4 {
+    margin: 0;
+    color: rgb(0, 0, 0); /* Couleur des titres */
+}
+
+.top-content h3 {
+    font-size: 56px; /* Taille du h3 */
+    margin-left: 70px;
+}
+
+.top-content h1 {
+    font-size: 144px; /* Taille du h1 */
+    margin-top: -50px; /* Espacement entre h3 et h1 */
+    margin-left: 500px;
+}
+
+.top-content h4 {
+    font-size: 40px; /* Taille du h4 */
+    margin-top: -25px; /* Espacement entre h1 et h4 */
+    margin-left: 370px;
+}
+
+.bottom-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Empêche l'image de déborder */
+    min-height: 100%; /* Garantit que le conteneur prend toute la hauteur disponible */
+}
+
+.bottom-content img {
+    width: 100%; /* Étire l'image horizontalement pour toucher les bords */
+    height: 100%; /* Étire l'image verticalement pour remplir l'espace */
+    object-fit: cover; /* Remplit le conteneur sans déformation */
+    display: block;
+    max-height: 100%; /* Limite la hauteur maximale à la hauteur du conteneur */
+}
+
+/*Section 2 */
+
+.section2 {
+    display: flex;
+}
+
+.image-gauche {
+    flex: 1;
+    overflow: hidden; /* Empêche tout débordement horizontal ou vertical */
+    margin: 0;
+    padding: 0;
+
+}
+
+.texte-droit {
+    position: absolute; /* Toujours utilisé pour positionner les titres sur l'image */
+    width: 30%;
+    line-height: 1.6;
+    padding-top: 1000px;
+    padding-left: 700px;
+}
+
+
+
+
+.section3 {
+    padding-top: 600px;
+}
+
+.image-gauche2 {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    position: absolute; /* Toujours utilisé pour positionner les titres sur l'image */
+    padding-right: 875px;
+}
+
+.Carrousel1 {
+    flex: 1;
+    padding-bottom: 0px;
+}
+
+.section3 {
+    padding-top: 1800px;
+}
+
+/* Autres sections */
+.section2, .section3, .section4, .section5, .section6 {
+    border: 1px solid #ffffff;
+}
+
+.section2 h2, .section3 h2, .section4 h2, .section5 h2, .section6 h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
